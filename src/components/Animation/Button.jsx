@@ -82,7 +82,7 @@ const Button = ({
       onMouseEnter={animateIn}
       onMouseLeave={animateOut}
     >
-      <span className='text-white font-semibold text-sm uppercase'>Book Now</span>
+      <span className='text-white font-semibold lg:text-sm uppercase'>Book Now</span>
       <div ref={overlayRef} style={overlayStyle} />
       {children}
     </div>

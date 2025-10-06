@@ -37,50 +37,49 @@ const Navbar = () => {
         </a>
 
         {/* Menu Desktop */}
-        <div className="hidden text-md md:flex text-center items-center">
+        <div className="hidden text-md lg:flex text-center items-center">
           <div className="flex gap-8 group/nav">
             {" "}
-            {/* Tambahkan group/nav */}
             <a
               href="#"
-              className="nav-link hover:text-orange-100 text-base transition-opacity duration-300"
+              className="nav-link hover:text-orange-100 text-base  transition-opacity duration-300"
             >
               About Us
             </a>
             <a
               href="#"
-              className="nav-link hover:text-orange-100 text-base transition-opacity duration-300"
+              className="nav-link hover:text-orange-100 text-base  transition-opacity duration-300"
             >
               Family
             </a>
             <a
               href="#"
-              className="nav-link hover:text-orange-100 text-base transition-opacity duration-300"
+              className="nav-link hover:text-orange-100 text-base  transition-opacity duration-300"
             >
               What's New
             </a>
             <a
               href="#"
-              className="nav-link hover:text-orange-100 text-base transition-opacity duration-300"
+              className="nav-link hover:text-orange-100 text-base  transition-opacity duration-300"
             >
               Offers
             </a>
             <a
               href="#"
-              className="nav-link hover:text-orange-100 text-base transition-opacity duration-300"
+              className="nav-link hover:text-orange-100 text-base  transition-opacity duration-300"
             >
               Contact
             </a>
             <a
               href="#"
-              className="nav-link hover:text-orange-100 text-base transition-opacity duration-300"
+              className="nav-link hover:text-orange-100 text-base  transition-opacity duration-300"
             >
               Become A Member
             </a>
           </div>
         </div>
 
-        <div className="md:flex gap-4 hidden">
+        <div className="lg:flex gap-4 hidden">
           <button className="uppercase text-sm font-semibold tracking-tight bg-white text-black py-[11px] px-[25px] ">
             Sign Up
           </button>
@@ -91,14 +90,14 @@ const Navbar = () => {
         </div>
 
         {/* Content kiri navbar Mobile */}
-        <div className="flex gap-4 items-center justify-center text-center md:hidden">
+        <div className="flex gap-4 items-center justify-center text-center md:gap-8 lg:hidden">
           <button className="py-2 px-3 bg-white text-black text-[12px] hover:bg-gray-200">
             Sign Up
           </button>
 
-          <button className="py-2 px-3 bg-orange-100 text-white text-[12px] hover:bg-orange-500 ">
-            Book Now
-          </button>
+          <Button className="py-2 px-2 bg-orange-100 text-white text-[12px] hover:bg-orange-500 ">
+           
+          </Button>
 
           {/* Menu Icon */}
           <button onClick={() => setIsMenuOpen(!isMenuOpen)}>
@@ -124,7 +123,7 @@ const Navbar = () => {
 
       {/* Menu Mobile */}
       {isMenuOpen && (
-        <div className="bg-white text-gray-800 space-y-2 py-4 px-6 md:hidden lg:hidden">
+        <div className="bg-white text-gray-800 space-y-2 py-4 px-6 lg:hidden">
           <a href="#" className="block hover:bg-gray-200 py-2 px-4">
             Home
           </a>

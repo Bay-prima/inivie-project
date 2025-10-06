@@ -14,7 +14,7 @@ import { BiChevronDown } from "react-icons/bi";
 const Footer = () => {
   return (
     <div className="relative hidden md:flex flex-col md:px-14 lg:px-28 py-10 gap-0 items-center bg-black">
-      <div className="flex flex-col w-[800px] h-auto justify-between items-center text-center gap-8 mb-10 px-4 py-4">
+      <div className="flex flex-col lg:w-[800px] h-auto justify-between items-center text-center gap-8 mb-10 px-4 py-4 md:w-full">
         <h2 className="text-3xl tracking-tight text-white font-poppins-medium">
           THE iNi ViE HOSPITALITY STORY
         </h2>

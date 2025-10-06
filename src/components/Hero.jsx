@@ -1,16 +1,15 @@
 import React, { useEffect, useRef, useState } from "react";
 import { heroVD, smallHeroVD } from "../utils";
-import {
-  FaBuilding,
-  FaHelicopter,
-  FaHotel,
-  FaSpa,
-} from "react-icons/fa";
-import {  MdOutlineFlatware, MdVilla, } from "react-icons/md";
+import { FaBuilding, FaHelicopter, FaHotel, FaSpa } from "react-icons/fa";
+import { MdOutlineFlatware, MdVilla } from "react-icons/md";
 import ReadOnlyCalendar from "./Calendar";
-import {  BsBuildingsFill } from "react-icons/bs";
+import { BsBuildingsFill } from "react-icons/bs";
 import { FaRegBuilding } from "react-icons/fa6";
-import { LiaBuildingSolid, LiaHelicopterSolid, LiaHotelSolid } from "react-icons/lia";
+import {
+  LiaBuildingSolid,
+  LiaHelicopterSolid,
+  LiaHotelSolid,
+} from "react-icons/lia";
 
 const Hero = () => {
   const [videoSrc, setVideoSrc] = useState(
@@ -35,7 +34,10 @@ const Hero = () => {
     { name: "Resorts", icon: <FaBuilding className="w-8 h-8" /> },
     { name: "Aviation", icon: <FaHelicopter className="w-8 h-8" /> },
     { name: "Luxury properties", icon: <FaHotel className="w-8 h-8" /> },
-    { name: "Premium properties", icon: <BsBuildingsFill className="w-8 h-8" /> },
+    {
+      name: "Premium properties",
+      icon: <BsBuildingsFill className="w-8 h-8" />,
+    },
     { name: "Midscale villas", icon: <MdVilla className="w-8 h-8" /> },
     { name: "Spa", icon: <FaSpa className="w-8 h-8" /> },
     { name: "Wonder Space", icon: <MdOutlineFlatware className="w-8 h-8" /> },
@@ -101,7 +103,7 @@ const Hero = () => {
   return (
     <section className="relative h-dvh w-screen flex flex-col">
       {/* Lapisan Latar Belakang (Video & Overlay) */}
-      <div className="absolute video-height overflow-hidden inset-0 z-0 transition-transform duration-500 lg:h-screen">
+      <div className="absolute video-height overflow-hidden md:h-screen inset-0 z-0 transition-transform duration-500 lg:h-screen">
         <video
           loop
           autoPlay
@@ -112,7 +114,7 @@ const Hero = () => {
           <source src={videoSrc} type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-black bg-opacity-25"></div>
-        <div className="w-full h-[50%] absolute bottom-0 inset-x-0 bg-gradient-to-t from-white to-transparent lg:h-[0%]"></div>
+        <div className="w-full h-[50%] absolute bottom-0 inset-x-0 bg-gradient-to-t from-white to-transparent md:h-0 lg:h-[0%]"></div>
         <div className="w-full h-[100%] absolute top-0 inset-x-0 bg-gradient-to-b from-blue-50 to-transparent"></div>
       </div>
 
@@ -122,14 +124,14 @@ const Hero = () => {
 
         {/* Bagian Tengah (Teks & Tombol) */}
         <div className="flex flex-col items-center text-white text-center w-full max-w-[1500px] lg:items-start lg:text-left gap-1">
-          <h1 className="hidden text-[28px] inset-0 font-poppins-semibold tracking-[-0.5px] leading-[28px] lg:text-5xl md:text-2xl md:flex">
+          <h1 className="hidden text-[28px] inset-0 font-poppins-semibold tracking-[-0.5px] leading-[28px] lg:text-5xl md:text-2xl md:leading-tight md:flex">
             iNi ViE <br /> Hospitality
           </h1>
           <p className="hidden text-[18px] text-white opacity-70  mt-0 mb-2 -tracking-[1px] lg:mb-5 md:flex">
             Bali Boutique Resort Experience
           </p>
           {/* Button Desktop */}
-          <div className="hidden md:flex gap-4 mt-8 mb-10">
+          <div className="hidden md:flex gap-4 mb-10 md:mt-4 lg:mt-8">
             <div className="">
               <span className="uppercase text-[12px]">Destination</span>
               <button className="hidden md:flex px-4 py-2 mt-2 text-sm italic border border-white bg-transparent items-center text-center gap-4">
@@ -244,8 +246,7 @@ const Hero = () => {
               <div className="grid grid-cols-4 gap-[5px] px-[16px] mx-auto py-2 text-center">
                 {/* Ikon Baris 1 */}
                 <li className="flex flex-col items-center border-r border-black gap-3 py-2 px-1 text-[12px]">
-                  
-                  <LiaHelicopterSolid className="w-8 h-8"  />
+                  <LiaHelicopterSolid className="w-8 h-8" />
                   Aviation
                 </li>
                 <li className="flex flex-col items-center border-r border-black gap-3 py-2 px-1 text-[12px]">
@@ -257,7 +258,7 @@ const Hero = () => {
                   Luxury Properties
                 </li>
                 <li className="flex flex-col items-center gap-3 py-2 px-1 text-[12px]">
-                  <MdVilla className="w-8 h-8"/>
+                  <MdVilla className="w-8 h-8" />
                   Premium Properties
                 </li>
                 {/* ... ikon lainnya */}
@@ -266,15 +267,15 @@ const Hero = () => {
               <div className="grid grid-cols-4 gap-[5px] px-[16px] mx-auto py-2 text-center">
                 {/* Ikon Baris 2 */}
                 <li className="flex flex-col items-center gap-3 py-1 px-1 border-r border-black text-[12px]">
-                  <MdVilla className="w-8 h-8"/>
+                  <MdVilla className="w-8 h-8" />
                   Midscale Villas
                 </li>
                 <li className="flex flex-col items-center gap-3 py-1 px-1 border-r border-black text-[12px]">
-                  <MdVilla className="w-8 h-8"/>
+                  <MdVilla className="w-8 h-8" />
                   Spa
                 </li>
                 <li className="flex flex-col items-center gap-3 py-1 px-1 border-r border-black text-[12px]">
-                  <MdVilla className="w-8 h-8"/>
+                  <MdVilla className="w-8 h-8" />
                   Wonder Space
                 </li>
                 <li className="flex flex-col items-center gap-3 py-1 px-1 text-[12px]">

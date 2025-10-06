@@ -5,7 +5,7 @@ const Promotion = () => {
     <div className="w-full h-ful px-4 lg:px-10 lg:items-center lg:justify-center md:flex md:flex-col md:gap-8">
       <hr className="md:hidden" />
       <br />
-      <div className="relative h-[600px] lg:h-[400px] lg:w-[1200px]">
+      <div className="relative h-[600px]  md:h-[400px] lg:w-[1200px]">
         <img
           src="/assets/img/promotion-banner-new-fix.jpeg"
           alt=""
