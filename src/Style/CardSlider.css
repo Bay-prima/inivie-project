@@ -1,0 +1,124 @@
+.card-slider {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0px 20px ;
+  padding: 0px 0;
+  overflow: hidden;
+}
+
+.slides-container {
+  overflow: hidden;
+  border-radius: 12px;
+  margin: 0 15px; /* Space for arrows */
+  /* background: #000; */
+}
+
+.slides-wrapper {
+  display: flex;
+  transition: transform 0.3s ease;
+  width: 100%;
+  gap: 15px;
+}
+
+.slide-card {
+  flex: 0 0 calc(100% / var(--slides-to-show, 1));
+  min-height: 200px;
+  background: #fff;
+  /* border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+/* Navigation Buttons */
+.slider-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.9);
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 10;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.slider-btn:hover {
+  background: #1C2434;
+  color: #fff;
+  transform: translateY(-50%);
+}
+
+.slider-btn-prev {
+  left: 0;
+}
+
+.slider-btn-next {
+  right: 0;
+}
+
+/* Indicators */
+.indicators {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.indicator {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: none;
+  background: #ccc;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.indicator:hover {
+  background: #999;
+  transform: scale(1.2);
+}
+
+.indicator.active {
+  background: #007bff;
+  transform: scale(1.2);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .slides-container {
+    margin: 0 40px;
+  }
+  
+  .slider-btn {
+    width: 35px;
+    height: 35px;
+    font-size: 16px;
+  }
+  
+  .slide-card {
+    padding: 15px;
+    min-height: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .card-slider {
+    --slides-to-show: 1 !important; /* Force 1 card on mobile */
+  }
+  
+  .slides-container {
+    margin: 0 30px;
+  }
+}

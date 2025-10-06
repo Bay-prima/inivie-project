@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+} */
+
+body {
+  color: #000;
+  width: 100%;
+  overflow-x: hidden;
+  height: 100%;
+  background: #fff;
+  border-color: #3b3b3b;
+  user-select: none;
+  font-family: "Inter", sans-serif;
+}
+
+@layer base {
+  @font-face {
+    font-family: "poppins-semibold";
+    src: url("/fonts/Poppins-SemiBold.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: "poppins-medium";
+    src: url("/fonts/Poppins-Medium.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: "inter-regular";
+    src: url("/fonts/Inter_18pt-Regular.ttf") format("ttf");
+  }
+}
+
+@layer utilities {
+  .nav-height {
+    @apply h-[calc(100vh-60px)];
+  }
+
+  .video-height {
+    height: 50vh;
+  }
+
+  /* hr {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background-color: #000;
+  } */
+
+  .svg-thicknes {
+    fill: 1;
+  }
+
+  li {
+    color: black;
+  }
+
+  /* Navbar Animation link */
+  /* Saat salah satu .nav-link di-hover, semua sibling .nav-link fade out */
+  .group\/nav:hover .nav-link:not(:hover) {
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+  }
+
+  /* Optional: tambahkan sedikit scale atau underline ke yang di-hover */
+  .group\/nav .nav-link:hover {
+    @apply font-medium;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    transform: translateY(-2px);
+  }
+
+  /* aaa */
+
+  .category-btn {
+    padding: 10px 20px;
+    background: white;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 500;
+  }
+
+  .category-btn.active {
+    text-decoration: underline;
+  }
+
+  .active-nav,
+  .inactive-nav {
+    position: relative;
+  }
+
+  /* Style untuk garis bawah */
+  .active-nav::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    transform: translateX(-50%) scaleX(1) scaleY(1.5);
+    transform-origin: center;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  /* Style untuk tombol saat tidak aktif */
+  .inactive-nav::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    transform: translateX(-50%) scaleX(0);
+    transform-origin: center;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .horizontal-line {
+    width: 4px;
+    background-color: #000;
+    color: #000;
+    height: auto;
+    margin: 20px 0;
+  }
+
+  /* Footer style */
+
+  .footer-title {
+    color: #fff;
+    font-size: 20px;
+    font-family: "Poppins";
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+  }
+
+  .footer-desc {
+    font-size: 16px;
+    color: #767676;
+    margin-bottom: 4px;
+  }
+
+  .footer-desc-cus {
+    font-size: 16px;
+    color: #ff8432;
+    margin-bottom: 4px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .footer-title {
+      font-size: 16px;
+    }
+
+    .footer-desc {
+      font-size: 14px;
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    .footer-title {
+      font-size: 20px;
+    }
+
+    .footer-desc {
+      font-size: 16px;
+    }
+  }
+
+  .key-points-list {
+    /* Hapus bullet default */
+    list-style: none;
+    padding-left: 0px; /* Hapus padding default */
+  }
+
+  .key-points-list li {
+    /* Tambahkan strip (-) sebagai pseudo-element */
+    position: relative;
+    padding-left: 40px; /* Beri ruang agar strip tidak menempel ke teks */
+  }
+
+  .key-points-list li::before {
+    content: "—"; /* Ganti dengan simbol strip panjang (em-dash) */
+    color: #000000; /* Atur warna strip (misalnya, hitam) */
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  .line-text {
+    width: 35px;
+    height: 1px;
+    background-color: #000;
+    opacity: 25%;
+  }
+  @media screen and (min-width: 1024px){
+    .line-text {
+      width: 100px;
+    }
+  }
+
+  /* File CSS Global Anda */
+
+/* 1. Target Kontainer Pagination */
+.featured-swiper .custom-pagination-wrapper {
+    /* Hapus penempatan default (biasanya di bawah) */
+    position: default; 
+    
+    /* Posisikan di kanan atas */
+    bottom: 0px;      /* Jarak dari atas */
+    right: 0px;    /* Jarak dari kanan */
+    left: 50%;     /* Pastikan tidak ada konflik dengan 'left' */
+    width: auto;    /* Jangan ambil lebar 100% */
+    z-index: 10;    /* Pastikan di atas slide */
+    
+    /* Style Visual */
+    color: #ffffff; /* Warna teks putih (cocok untuk bg gelap) */
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* .swiper {
+  width: 240px;
+  height: 320px;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+} */
+
+
+
+
+}

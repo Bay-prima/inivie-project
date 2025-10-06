@@ -1,0 +1,13 @@
+.vertical-line {
+  /* Tentukan lebar yang sangat tipis */
+  width: 1px; 
+  
+  /* Tentukan tinggi yang diinginkan */
+  height: auto; 
+  
+  /* Tentukan warna garis */
+  background-color: #ccc; 
+  
+  /* Opsional: Untuk memposisikan garis, misalnya di tengah */
+  margin: 40px 0;
+}

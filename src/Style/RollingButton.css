@@ -1,0 +1,56 @@
+.rolling-button {
+  position: relative;
+  overflow: hidden; 
+  /* Atur styling dasar button */
+  border: 1px solid #000;
+  padding: 10px 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px; /* Jarak antara ikon dan teks */
+}
+
+.button-content {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  justify-content: center;
+  transition: transform 0.4s ease-in-out;
+}
+
+/* Posisi awal container utama (normal) */
+.button-content {
+  transform: translateY(0);
+}
+
+/* Posisi awal container saat di-hover (tersembunyi di bawah) */
+.button-content-hover {
+  position: absolute;
+  top: 100%; /* Sembunyikan di bawah */
+  left: 0;
+  transform: translateY(0); /* Posisi awal dalam container */
+}
+
+/* Efek saat button di-hover */
+.rolling-button:hover .button-content {
+  transform: translateY(-200%); /* Geser container normal ke atas */
+}
+
+.rolling-button:hover .button-content-hover {
+  transform: translateY(-140%); /* Geser container hover ke atas */
+}
+
+/* Styling tambahan untuk ikon */
+.button-icon {
+  font-size: 1.2em;
+}
+
+.rolling-button .button-icon {
+  transition: transform 0.4s ease; /* Tambahkan transisi di sini */
+}
+
+.rolling-button:hover .button-icon {
+  transform: rotate(45deg); /* Rotasi 45 derajat saat di-hover */
+}
