@@ -3,20 +3,20 @@ import ScrollVelocity from './Animation/ScrollVelocity';
 const OurBrand = () => {
 
     const logoData = [
-        {logo: "/public/assets/img/brand-asset/exquisite-media.webp"},
-        {logo: "/public/assets/img/brand-asset/cnt.webp"},
-        {logo: "/public/assets/img/brand-asset/bali_buddies_logo.webp"},
-        {logo: "/public/assets/img/brand-asset/bali-guidline.webp"},
-        {logo: "/public/assets/img/brand-asset/bali-livin.webp"},
-        {logo: "/public/assets/img/brand-asset/baligasm.webp"},
-        {logo: "/public/assets/img/brand-asset/balihoneymoonguide.webp"},
-        {logo: "/public/assets/img/brand-asset/daman_header_logo.webp"},
-        {logo: "/public/assets/img/brand-asset/destinasian.webp"},
-        {logo: "/public/assets/img/brand-asset/indonesia-expat.webp"},
-        {logo: "/public/assets/img/brand-asset/logo-nibble.webp"},
-        {logo: "/public/assets/img/brand-asset/now-bali-logo.webp"},
-        {logo: "/public/assets/img/brand-asset/threesixtyguides.webp"},
-        {logo: "/public/assets/img/brand-asset/whatsnews.webp"},
+        {logo: "/assets/img/brand-asset/exquisite-media.webp"},
+        {logo: "/assets/img/brand-asset/cnt.webp"},
+        {logo: "/assets/img/brand-asset/bali_buddies_logo.webp"},
+        {logo: "/assets/img/brand-asset/bali-guidline.webp"},
+        {logo: "/assets/img/brand-asset/bali-livin.webp"},
+        {logo: "/assets/img/brand-asset/baligasm.webp"},
+        {logo: "/assets/img/brand-asset/balihoneymoonguide.webp"},
+        {logo: "/assets/img/brand-asset/daman_header_logo.webp"},
+        {logo: "/assets/img/brand-asset/destinasian.webp"},
+        {logo: "/assets/img/brand-asset/indonesia-expat.webp"},
+        {logo: "/assets/img/brand-asset/logo-nibble.webp"},
+        {logo: "/assets/img/brand-asset/now-bali-logo.webp"},
+        {logo: "/assets/img/brand-asset/threesixtyguides.webp"},
+        {logo: "/assets/img/brand-asset/whatsnews.webp"},
     ];
 
 

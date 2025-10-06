@@ -10,7 +10,7 @@ const newsData = [
     title1: "First Time in Bali? Don’t Make These 7 Rookie Mistakes",
     content1:
       "A first trip in Bali should be exciting since this island offers numerous pristine beaches,vibrant culture, and unforgettable adventures. But along with the beauty, there are also a few easy-to-make mistakes that can catch first-time travelers off guard.",
-    img1: "/public/assets/img/latestnews-img/itinerary-bali.jpg",
+    img1: "/assets/img/latestnews-img/itinerary-bali.jpg",
     title2:
       "17 Free Entry Beach Clubs in Bali, Enjoy Sunset with Another Level",
     content2:

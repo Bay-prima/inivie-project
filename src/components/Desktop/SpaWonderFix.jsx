@@ -43,7 +43,7 @@ const SpaWonderFix = () => {
       <div className="flex relative w-full">
         <div className="hidden xl:flex w-[400px] h-[550px]">
           <img
-            src="/public/assets/img/spa-property/svaha-spa-sanur-cover.webp"
+            src="/assets/img/spa-property/svaha-spa-sanur-cover.webp"
             alt=""
             className="w-full h-full object-cover"
           />
@@ -174,7 +174,7 @@ const SpaWonderFix = () => {
         </div>
         <div className="hidden xl:flex w-[400px] h-[550px]">
           <img
-            src="/public/assets/img/wonderspace-property/sanctuary-umalas-badung-cover.webp"
+            src="/assets/img/wonderspace-property/sanctuary-umalas-badung-cover.webp"
             alt=""
             className="w-full h-full object-cover"
           />

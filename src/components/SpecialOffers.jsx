@@ -7,16 +7,16 @@ const SpecialOffers = () => {
   const dataOffers = [
     {
       id: 1,
-      asset: "/public/assets/img/special-offers/49dd756e626d5cf811043836b.webp",
+      asset: "/assets/img/special-offers/49dd756e626d5cf811043836b.webp",
     },
-    { id: 2, asset: "/public/assets/img/special-offers/bali-yours.webp" },
+    { id: 2, asset: "/assets/img/special-offers/bali-yours.webp" },
     {
       id: 3,
-      asset: "/public/assets/img/special-offers/book-early-save-more.webp",
+      asset: "/assets/img/special-offers/book-early-save-more.webp",
     },
-    { id: 4, asset: "/public/assets/img/special-offers/pop-arden.webp" },
-    { id: 5, asset: "/public/assets/img/special-offers/pop-asvara.webp" },
-    { id: 6, asset: "/public/assets/img/special-offers/pop-maar.webp" },
+    { id: 4, asset: "/assets/img/special-offers/pop-arden.webp" },
+    { id: 5, asset: "/assets/img/special-offers/pop-asvara.webp" },
+    { id: 6, asset: "/assets/img/special-offers/pop-maar.webp" },
   ];
 
   return (
