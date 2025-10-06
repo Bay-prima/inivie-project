@@ -110,30 +110,30 @@ const BrandLogo = () => {
 
   return (
     <div className="relative flex w-full bg-blue-50 items-center justify-center">
-        <a className="flex items-center justify-center uppercase rounded-lg z-40 w-36 bg-blue-50 "><img src="/assets/img/logo-inivie-ln.png" alt="" /></a>
+        <a className="flex items-center justify-center uppercase rounded-lg z-40 w-36 bg-blue-50 "><img src="/assets/img/logo-inivie-ln.png" alt="iNi-Vie-Logo" /></a>
       <div
         ref={box1Ref}
         style={{ ...boxStyle, }}
       >
-        <img src="/assets/img/logo-member/1.webp" alt="" className="hover:scale-90 transition-all duration-500 ease-in-out" />
+        <img src="/assets/img/logo-member/1.webp" alt="member-logo-1" className="hover:scale-90 transition-all duration-500 ease-in-out" />
       </div>
       <div
         ref={box2Ref}
         style={{ ...boxStyle,  }}
       >
-        <img src="/assets/img/logo-member/5.webp" alt="" className="hover:scale-90 transition-all duration-500 ease-in-out" />
+        <img src="/assets/img/logo-member/5.webp" alt="member-logo-2" className="hover:scale-90 transition-all duration-500 ease-in-out" />
       </div>
       <div
         ref={box3Ref}
         style={{ ...boxStyle,   }}
       >
-        <img src="/assets/img/logo-member/3.webp" alt="" className="hover:scale-90 transition-all duration-500 ease-in-out" />
+        <img src="/assets/img/logo-member/3.webp" alt="member-logo-3" className="hover:scale-90 transition-all duration-500 ease-in-out" />
       </div>
       <div
         ref={box4Ref}
         style={{ ...boxStyle,   }}
       >
-        <img src="/assets/img/logo-member/4.webp" alt="" className="hover:scale-90 transition-all duration-500 ease-in-out" />
+        <img src="/assets/img/logo-member/4.webp" alt="member-logo-4" className="hover:scale-90 transition-all duration-500 ease-in-out" />
       </div>
     </div>
   );

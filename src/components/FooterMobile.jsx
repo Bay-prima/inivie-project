@@ -39,7 +39,7 @@ const FooterMobile = () => {
         <div className="flex flex-col gap-14 w-full">
           <div className="flex w-full items-center justify-center">
             <img
-              src="/public/assets/img/logo-inivie-ln.png"
+              src="/assets/img/logo-inivie-ln.png"
               alt=""
               className="w-40 h-full"
             />

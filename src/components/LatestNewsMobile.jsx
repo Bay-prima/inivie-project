@@ -49,7 +49,7 @@ const LatestNewsMobile = () => {
           <div className="relative w-full bg-blue-500 h-[250px] group overflow-hidden">
             
             <img
-              src="/public/assets/img/latestnews-img/itinerary-bali.jpg"
+              src="/assets/img/latestnews-img/itinerary-bali.jpg"
               alt=""
               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
             />
