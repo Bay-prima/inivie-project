@@ -16,11 +16,11 @@ const Mantra = () => {
         </div>
         <div className="grid md:grid-cols-5 w-[100%] h-auto gap-4">
           <div className="md:col-span-3">
-          <img src="/public/assets/img/experiences.webp" alt="" className="w-full h-full object-cover" />
+          <img src="/assets/img/experiences.webp" alt="" className="w-full h-full object-cover" />
           </div>  
         <div className="grid md:col-span-2 gap-4 md:grid-rows-2">
-          <img src="/public/assets/img/experiences1.webp" alt="" className="w-full h-full object-cover" />
-          <img src="/public/assets/img/experiences2.webp" alt="" className="w-full h-full object-cover" />
+          <img src="/assets/img/experiences1.webp" alt="" className="w-full h-full object-cover" />
+          <img src="/assets/img/experiences2.webp" alt="" className="w-full h-full object-cover" />
         </div>
         </div>
       </div>
