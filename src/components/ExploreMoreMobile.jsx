@@ -34,7 +34,7 @@ const ExploreMoreMobile = () => {
           <SwiperSlide className="flex items-center justify-center bg-red-400">
             <div className="flex flex-col w-full h-full">
               <img
-                src="/public/assets/img/fly-rosie-2.webp"
+                src="/assets/img/fly-rosie-2.webp"
                 alt=""
                 className="w-full h-full object-cover"
               />
@@ -43,7 +43,7 @@ const ExploreMoreMobile = () => {
           <SwiperSlide className="flex items-center justify-center bg-blue-400">
             <div className="flex flex-col w-full h-full">
               <img
-                src="/public/assets/img/fly-rosie-1.webp"
+                src="/assets/img/fly-rosie-1.webp"
                 alt=""
                 className="w-full h-full object-cover"
               />
@@ -52,7 +52,7 @@ const ExploreMoreMobile = () => {
           <SwiperSlide className="flex items-center justify-center bg-green-400">
             <div className="flex flex-col w-full h-full">
               <img
-                src="/public/assets/img/fly-rosie-3.webp"
+                src="/assets/img/fly-rosie-3.webp"
                 alt=""
                 className="w-full h-full object-cover"
               />
@@ -87,7 +87,7 @@ const ExploreMoreMobile = () => {
           <SwiperSlide className="flex items-center justify-center ">
             <div className="flex flex-col w-full h-full">
               <img
-                src="/public/assets/img/memory-2.jpeg"
+                src="/assets/img/memory-2.jpeg"
                 alt=""
                 className="w-full h-full object-cover"
               />
@@ -96,7 +96,7 @@ const ExploreMoreMobile = () => {
           <SwiperSlide className="flex items-center justify-center">
             <div className="flex flex-col w-full h-full">
               <img
-                src="/public/assets/img/memory-1.jpeg"
+                src="/assets/img/memory-1.jpeg"
                 alt=""
                 className="w-full h-full object-cover"
               />
@@ -105,7 +105,7 @@ const ExploreMoreMobile = () => {
           <SwiperSlide className="flex items-center justify-center">
             <div className="flex flex-col w-full h-full">
               <img
-                src="/public/assets/img/memory-3.jpg"
+                src="/assets/img/memory-3.jpg"
                 alt=""
                 className="w-full h-full object-cover"
               />
