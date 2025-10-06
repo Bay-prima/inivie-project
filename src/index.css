@@ -208,7 +208,7 @@ body {
     background-color: #000;
     opacity: 25%;
   }
-  @media screen and (min-width: 1024px){
+  @media screen and (min-width: 1024px) {
     .line-text {
       width: 100px;
     }
@@ -216,40 +216,35 @@ body {
 
   /* File CSS Global Anda */
 
-/* 1. Target Kontainer Pagination */
-.featured-swiper .custom-pagination-wrapper {
+  /* 1. Target Kontainer Pagination */
+  .featured-swiper .custom-pagination-wrapper {
     /* Hapus penempatan default (biasanya di bawah) */
-    position: default; 
-    
+    position: default;
+
     /* Posisikan di kanan atas */
-    bottom: 0px;      /* Jarak dari atas */
-    right: 0px;    /* Jarak dari kanan */
-    left: 50%;     /* Pastikan tidak ada konflik dengan 'left' */
-    width: auto;    /* Jangan ambil lebar 100% */
-    z-index: 10;    /* Pastikan di atas slide */
-    
+    bottom: 0px; /* Jarak dari atas */
+    right: 0px; /* Jarak dari kanan */
+    left: 50%; /* Pastikan tidak ada konflik dengan 'left' */
+    width: auto; /* Jangan ambil lebar 100% */
+    z-index: 10; /* Pastikan di atas slide */
+
     /* Style Visual */
     color: #ffffff; /* Warna teks putih (cocok untuk bg gelap) */
     font-size: 14px;
     font-weight: 600;
-}
+  }
 
-/* .swiper {
-  width: 240px;
-  height: 320px;
-}
+  .vertical-line {
+    /* Tentukan lebar yang sangat tipis */
+    width: 1px;
 
-.swiper-slide {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 18px;
-  font-size: 22px;
-  font-weight: bold;
-  color: #fff;
-} */
+    /* Tentukan tinggi yang diinginkan */
+    height: auto;
 
+    /* Tentukan warna garis */
+    background-color: #ccc;
 
-
-
+    /* Opsional: Untuk memposisikan garis, misalnya di tengah */
+    margin: 40px 0;
+  }
 }

@@ -1,6 +1,5 @@
 import React from "react";
 import ShinyText from "../Animation/ShinyText";
-import "../../style/MembershipStyle.css";
 import WebDiagram from "../Animation/WebDiagram";
 const MembershipDesktop = () => {
   return (
