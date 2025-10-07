@@ -5,10 +5,8 @@ import Navbar from "./components/Navbar";
 import FeaturedDesktop from "./components/FeaturedDesktop";
 import Footer from "./components/Footer";
 import Membership from "./components/Membership";
-import ExploreMoreDesktop from "./components/Desktop/ExploreMoreDesktop";
 import MembershipDesktop from "./components/Desktop/MembershipDesktop";
 import OurBrand from "./components/OurBrand";
-import ReadOnlyCalendar from "./components/Calendar";
 import SpecialOffers from "./components/SpecialOffers";
 import Mantra from "./components/Mantra";
 import LatestNews from "./components/LatestNews";
@@ -29,7 +27,6 @@ const App = () => {
       <FeaturedDesktop />
       <ExploreMoreMobile />
       <TestExplore />
-      {/* <ExploreMoreDesktop /> */}
       <MembershipDesktop />
       <Mantra />
       <Membership />
