@@ -4,7 +4,6 @@ import { FaBuilding, FaHelicopter, FaHotel, FaSpa } from "react-icons/fa";
 import { MdOutlineFlatware, MdVilla } from "react-icons/md";
 import ReadOnlyCalendar from "./Calendar";
 import { BsBuildingsFill } from "react-icons/bs";
-import { FaRegBuilding } from "react-icons/fa6";
 import {
   LiaBuildingSolid,
   LiaHelicopterSolid,

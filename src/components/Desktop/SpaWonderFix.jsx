@@ -6,7 +6,6 @@ import { wonderData } from "../../utils/wonderspace";
 import "../../Style/SpaWonderDesktop.css";
 import "swiper/css";
 import Button from "../Animation/Button";
-import { Autoplay } from "swiper/modules";
 
 const SpaWonderFix = () => {
   // const [isMobile, setIsMobile] = React.useState(window.innerWidth < 768);

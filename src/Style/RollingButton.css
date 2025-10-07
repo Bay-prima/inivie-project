@@ -1,7 +1,6 @@
 .rolling-button {
   position: relative;
   overflow: hidden; 
-  /* Atur styling dasar button */
   border: 1px solid #000;
   padding: 10px 20px;
   cursor: pointer;

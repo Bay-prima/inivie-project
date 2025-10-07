@@ -13,7 +13,7 @@ const BenefitItem = ({ iconName, text, positionClasses, iconText }) => (
     
     {/* Wadah Ikon (Lingkaran Oranye) */}
     <div className="mx-auto w-16 h-16 rounded-full bg-orange-600 flex items-center justify-center mb-2 shadow-lg">
-      <img src={iconName} alt="" />
+      <img src={iconName} alt={text} loading='lazy'/>
     </div>
     
     {/* Teks Manfaat */}

@@ -1,7 +1,4 @@
 import React, { useEffect, useState, useMemo } from "react";
-// Anda mungkin perlu memastikan komponen ini ada di proyek Anda
-// import ShinyText from "../Animation/ShinyText";
-import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 // --- Data Gambar ---
 const aviationData = [
