@@ -35,7 +35,8 @@ const ExploreMoreMobile = () => {
             <div className="flex flex-col w-full h-full">
               <img
                 src="/assets/img/fly-rosie-2.webp"
-                alt=""
+                alt="aviation-img"
+                loading="lazy"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -44,7 +45,8 @@ const ExploreMoreMobile = () => {
             <div className="flex flex-col w-full h-full">
               <img
                 src="/assets/img/fly-rosie-1.webp"
-                alt=""
+                alt="aviation-img"
+                loading="lazy"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -53,7 +55,8 @@ const ExploreMoreMobile = () => {
             <div className="flex flex-col w-full h-full">
               <img
                 src="/assets/img/fly-rosie-3.webp"
-                alt=""
+                alt="aviation-img"
+                loading="lazy"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -88,7 +91,8 @@ const ExploreMoreMobile = () => {
             <div className="flex flex-col w-full h-full">
               <img
                 src="/assets/img/memory-2.jpeg"
-                alt=""
+                alt="memory-img"
+                loading="lazy"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -97,7 +101,8 @@ const ExploreMoreMobile = () => {
             <div className="flex flex-col w-full h-full">
               <img
                 src="/assets/img/memory-1.jpeg"
-                alt=""
+                alt="memory-img"
+                loading="lazy"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -106,7 +111,8 @@ const ExploreMoreMobile = () => {
             <div className="flex flex-col w-full h-full">
               <img
                 src="/assets/img/memory-3.jpg"
-                alt=""
+                alt="memory-img"
+                loading="lazy"
                 className="w-full h-full object-cover"
               />
             </div>

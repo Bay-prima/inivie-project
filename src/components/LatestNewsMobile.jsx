@@ -78,6 +78,7 @@ const LatestNewsMobile = () => {
             <img
               src="https://blog.inivie.com/wp-content/uploads/2025/09/free-entry-beach-club-in-bali.jpg"
               alt=""
+              loading="lazy"
               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
             />
 

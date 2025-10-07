@@ -70,6 +70,7 @@ const SpecialOffers = () => {
                   <img
                     src={slide.asset}
                     alt=""
+                    loading="lazy"
                     className="w-full h-full object-cover"
                     draggable={false}
                   />

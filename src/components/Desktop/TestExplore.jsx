@@ -101,6 +101,7 @@ const TestExplore = () => {
             <img
               key={index}
               src={image}
+              loading="lazy"
               alt={`${currentContent.title} slide ${index + 1}`}
               className={`
                 absolute inset-0 w-full h-full object-cover

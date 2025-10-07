@@ -176,6 +176,7 @@ const SpaWonderFix = () => {
           <img
             src="/assets/img/wonderspace-property/sanctuary-umalas-badung-cover.webp"
             alt=""
+            loading="lazy"
             className="w-full h-full object-cover"
           />
         </div>

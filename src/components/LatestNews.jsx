@@ -88,6 +88,7 @@ const LatestNews = () => {
                   <img
                     src="https://blog.inivie.com/wp-content/uploads/2025/07/Why-is-Canggu-So-Popular.jpg"
                     alt=""
+                    loading="lazy"
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   />
                   <div className="absolute flex flex-col bottom-0 text-white z-40 gap-4 px-8 md:py-10 xl:py-24 ">

@@ -40,7 +40,8 @@ const FooterMobile = () => {
           <div className="flex w-full items-center justify-center">
             <img
               src="/assets/img/logo-inivie-ln.png"
-              alt=""
+              alt="logo-ini-vie"
+              loading="lazy"
               className="w-40 h-full"
             />
           </div>

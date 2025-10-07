@@ -41,7 +41,8 @@ const Footer = () => {
             <img
               className="w-full h-full object-cover"
               src="/assets/img/logo-inivie-ln.png"
-              alt=""
+              alt="logo-inivie"
+              loading="lazy"
             />
           </a>
         </div>

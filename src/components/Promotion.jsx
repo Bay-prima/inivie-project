@@ -13,7 +13,8 @@ const Promotion = () => {
         />
         <img
           src="/assets/img/promotion-banner-new.jpeg"
-          alt=""
+          alt="promotion-banner"
+          loading="lazy"
           className=" md:hidden h-full w-full object-cover"
         />
         <div className="hidden md:flex w-full h-[100%] absolute top-0 inset-x-0 bg-gradient-to-r from-blue-50 to-transparent "></div>

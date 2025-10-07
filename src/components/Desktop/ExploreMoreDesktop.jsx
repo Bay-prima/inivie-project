@@ -79,6 +79,7 @@ const ExploreMoreDesktop = () => {
                 key={index}
                 src={image}
                 alt={`Slide ${index + 1}`}
+                loading="lazy"
                 className={`
                 absolute inset-0 w-full h-full object-cover
                 transition-opacity duration-1000 ease-in-out
@@ -120,6 +121,7 @@ const ExploreMoreDesktop = () => {
                 key={index}
                 src={image}
                 alt={`Slide ${index + 1}`}
+                loading="lazy"
                 className={`
                 absolute inset-0 w-full h-full object-cover
                 transition-opacity duration-1000 ease-in-out

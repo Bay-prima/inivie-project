@@ -116,6 +116,7 @@ const FeaturedMobile = () => {
                   <img
                     src={property.image}
                     alt={property.name}
+                    loading="lazy"
                     className="w-full h-[350px] object-cover"
                   />
                   <div className="flex flex-col mt-5 p-4 gap-2">

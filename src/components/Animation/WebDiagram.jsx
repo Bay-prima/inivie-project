@@ -57,7 +57,7 @@ const WebDiagram = () => {
             <div className="z-10 text-center">
                 {/* Ganti dengan gambar logo bunga Anda */}
                 <div className="w-40 mx-auto mb-2 rounded-full flex items-center justify-center">
-                    <img src="/assets/img/logo-inivie-ln.png" alt="" className='w-full h-full object-cover'/>
+                    <img src="/assets/img/logo-inivie-ln.png" alt="" loading='lazy' className='w-full h-full object-cover'/>
                 </div>
             </div>
 

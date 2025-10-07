@@ -246,6 +246,7 @@ const FeaturedDesktop = () => {
                 <img
                   src={item.image}
                   alt={item.name}
+                  loading="lazy"
                   className="w-full h-[400px] object-cover shadow-xl"
                 />
               )}
