@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useMemo } from "react";
-
+import "../../Style/ExploreMore.css"
 // --- Data Gambar ---
 const aviationData = [
   "/assets/img/fly-rosie-1.webp",
@@ -85,13 +85,13 @@ const TestExplore = () => {
   );
 
   return (
-    <div className="hidden h-dvh lg:flex flex-col px-12 overflow-hidden">
+    <div className="hidden h-full lg:flex flex-col px-12 overflow-hidden">
       <div className="flex flex-col items-center title">
         <h3>Explore More With</h3>
-        <h3 className="sub-titles">iNi ViE Hospitality</h3>
+        <h3 className="text-xl text-orange-100 font-poppins-semibold">iNi ViE Hospitality</h3>
       </div>
 
-      <div className="flex flex-col relative mt-10">
+      <div className="flex flex-col relative my-10">
         <div className="relative w-full max-w-[1400px] h-[550px] mx-auto group cursor-pointer rounded-xl overflow-hidden shadow-2xl">
           {/* SLIDER GAMBAR UTAMA */}
           {currentContent.images.map((image, index) => (
